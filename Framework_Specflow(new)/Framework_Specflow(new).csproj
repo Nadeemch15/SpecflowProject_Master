@@ -96,17 +96,26 @@
     <Compile Include="Configuration\BrowserType.cs" />
     <Compile Include="CustomException\NoSuitableDriverFound.cs" />
     <Compile Include="Interfaces\IConfig.cs" />
-    <Compile Include="PageObject\LoginUser.cs" />
+    <Compile Include="PageObject\AddItem.cs" />
+    <Compile Include="PageObject\ContactUs.cs" />
+    <Compile Include="PageObject\Login.cs" />
+    <Compile Include="PageObject\RegisterUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Settings\AppConfigKeys.cs" />
     <Compile Include="Settings\ObjectRepository.cs" />
-    <Compile Include="StepDefinition\LoginUserSteps.cs" />
+    <Compile Include="StepDefinition\AddItem.cs" />
+    <Compile Include="StepDefinition\ContactUs.cs" />
+    <Compile Include="StepDefinition\LoginUser.cs" />
+    <Compile Include="StepDefinition\RegisterUserSteps.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Feartures\Login.feature" />
+    <None Include="Feartures\AddItem.feature" />
+    <None Include="Feartures\ContactUs.feature" />
+    <None Include="Feartures\LoginUser.feature" />
+    <None Include="Feartures\RegisterUser.feature" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
